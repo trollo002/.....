@@ -1,0 +1,45 @@
+////////#include <stdio.h>
+////////int main(){
+////////	printf("my name is Hong");
+////////}
+//////
+//////
+//////#include <stdio.h>
+//////int main(){
+//////	printf("my hometown \n");
+//////	printf("flowering mountain");
+//////}
+////
+////#include <stdio.h>
+////int main(){
+////	printf("TTTTTTTTTT\n");
+////	printf("TTTTTTTTTT\n");
+////	printf("    TT     \n");
+////	printf("    TT     \n");
+////	printf("    TT     \n");
+////}
+//
+//#include <stdio.h>
+//int main(){
+//	int kor=90;
+//	int mat=80;
+//	int eng=100;
+//	int sum=kor+mat+eng;
+//	int avg= (kor+mat+eng)/3 ;
+//	printf("kor %3d\n",kor);
+//	printf("mat %3d\n",mat);
+//	printf("eng %3d\n",eng);
+//	printf("sum %3d\n",sum);
+//	printf("avg %3d",avg);
+//	
+//}
+
+#include <stdio.h>
+int main(){
+	char a1[15]="Seoul";
+	char a2[15]="10,312,545";
+	char a3[15]="+91,375";
+	
+	printf("%15s%15s%15s\n",a1,a2,a3);
+	
+}
